@@ -14,12 +14,8 @@ body{
     font-family: Arial, sans-serif;
 }
 
-.heading{
+h1{
     text-align: center;
-    background-color: white;
-    padding: 20px;
-    font-size: 35px;
-    font-weight: bold;
 }
 
 .book-library{
@@ -27,13 +23,14 @@ body{
     background-color: #ffffff;
 
     display: flex;
+
     flex-direction: column;
 
     align-items: center;
 
-    gap: 40px;
+    gap: 30px;
 
-    padding: 30px;
+    padding: 20px;
 }
 
 .book{
@@ -44,9 +41,8 @@ body{
 
     padding: 20px;
 
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-
     display: flex;
+
     flex-direction: column;
 
     align-items: center;
@@ -55,30 +51,30 @@ body{
 .book img{
 
     width: 220px;
+
     height: 320px;
 
     object-fit: cover;
 }
 
-.details{
+.book h2{
 
     width: 100%;
+
+    text-align: left;
 
     margin-top: 15px;
 }
 
-.details h3{
-
-    text-align: left;
-
-    margin-bottom: 8px;
-}
-
 .author{
+
+    width: 100%;
 
     text-align: left;
 
     color: #777777;
+
+    margin-top: -10px;
 }
 
 .price{
@@ -93,11 +89,9 @@ body{
 
     padding: 15px;
 
-    margin-top: 20px;
-
-    font-size: 18px;
-
     font-weight: bold;
+
+    margin-top: 20px;
 }
 
 </style>
@@ -105,9 +99,7 @@ body{
 
 <body>
 
-<div class="heading">
-    Book Library
-</div>
+<h1>Book Library</h1>
 
 <div class="book-library">
 
@@ -115,13 +107,11 @@ body{
 
         <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg">
 
-        <div class="details">
-            <h3>SPY IN THE AMBER</h3>
+        <h2>SPY IN THE AMBER</h2>
 
-            <p class="author">
-                by Manohar Malgonkar
-            </p>
-        </div>
+        <p class="author">
+            by Manohar Malgonkar
+        </p>
 
         <div class="price">
             Rs. 299
@@ -133,13 +123,11 @@ body{
 
         <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg">
 
-        <div class="details">
-            <h3>SACRED GAMES</h3>
+        <h2>SACRED GAMES</h2>
 
-            <p class="author">
-                by Vikram Chandra
-            </p>
-        </div>
+        <p class="author">
+            by Vikram Chandra
+        </p>
 
         <div class="price">
             Rs. 199
@@ -151,13 +139,11 @@ body{
 
         <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg">
 
-        <div class="details">
-            <h3>BYOMKESH BAKSHI</h3>
+        <h2>BYOMKESH BAKSHI</h2>
 
-            <p class="author">
-                by Sharadindu Bandyopadhyay
-            </p>
-        </div>
+        <p class="author">
+            by Sharadindu Bandyopadhyay
+        </p>
 
         <div class="price">
             Rs. 249
